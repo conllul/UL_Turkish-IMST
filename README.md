@@ -8,7 +8,7 @@ with the following command line:
 ```
 ./tools/conllu2conllul <input file> -o <output file>
 ```
-for train and dev sets, a best guess of `goldId` is marked
+a best guess of `goldId`, and OoV words are also marked in the MISC field of conllul files
 (using the `-g` switch of the above command).
 
 ## Citation
